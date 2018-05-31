@@ -1,0 +1,8 @@
+gap_x 905
+gap_y 60
+font Monospace:size=20
+update_interval 1.0
+
+TEXT
+${exec BINARY}
+
