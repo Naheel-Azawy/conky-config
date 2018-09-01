@@ -3,12 +3,12 @@
 CPUS=4
 FILESYS="root /
 home /home/
-old /run/media/naheel/d5a54491-f6c2-4cc7-9ba8-816351a96a24
-other /run/media/naheel/a8dc666e-b3e7-4a89-808f-3261507abdf7
-win /run/media/naheel/F6A0FBA9A0FB6F0D"
+hdd1 /mnt/hdd1
+hdd2 /mnt/hdd2
+hdd3 /mnt/hdd3"
 NETDEV="wlp3s0"
 FONT="Monospace"
-SIZE="9"
+SIZE="13.5"
 BOLD="\${font $FONT:size=$SIZE:bold}"
 
 
@@ -16,7 +16,7 @@ cat ./config.rc
 
 echo "
 gap_x 1570
-gap_y 60
+gap_y 50
 font $FONT:size=$SIZE
 update_interval 3.0
 

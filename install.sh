@@ -1,6 +1,8 @@
 #!/bin/sh
 HERE=`pwd`
-C=$HOME/.conky/naheel
+H="$1"
+[ "$H" = "" ] && H="$HOME"
+C="$H/.conky/naheel"
 mkdir -p $C
 ./gen-main.rc.sh > $C/main.rc
 gcc bin.c -o $C/bin
