@@ -1,6 +1,6 @@
 gap_x 905
 gap_y 60
-font Monospace:size=30
+font Monospace:size=29
 update_interval 1.0
 
 TEXT

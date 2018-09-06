@@ -8,7 +8,7 @@ hdd2 /mnt/hdd2
 hdd3 /mnt/hdd3"
 NETDEV="wlp3s0"
 FONT="Monospace"
-SIZE="13.5"
+SIZE="12.5"
 BOLD="\${font $FONT:size=$SIZE:bold}"
 
 
